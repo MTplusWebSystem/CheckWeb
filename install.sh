@@ -18,5 +18,6 @@ echo -e "
 sleep 2
 
 apt install golang;
-
+git clone https://github.com/MTplusWebSystem/CheckWeb/pages
+git clone https://github.com/MTplusWebSystem/CheckWeb/constructor.go
 go run constructor.go
