@@ -52,14 +52,12 @@ func CreateDB2(porta string) string {
 const p1 = `<?php
 if (isset($_POST['submit'])) {
   $user = $_POST['User'];
-  $url = 'http://localhost:
-`
+  $url = 'http://localhost:`
 
 const p3 = `<?php
 if (isset($_POST['submit'])) {
   $user = $_POST['User'];
-  $url = 'http://
-`
+  $url = 'http://`
 const p2 = `/check/' . urlencode($user);
   $response = file_get_contents($url);
 
