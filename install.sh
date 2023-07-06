@@ -19,6 +19,7 @@ sleep 2
 
 apt install golang;
 apt install php
+apt install screen
 git clone https://github.com/MTplusWebSystem/CheckWeb
 cd CheckWeb
 go run constructor.go
