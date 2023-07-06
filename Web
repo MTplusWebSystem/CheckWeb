@@ -1,10 +1,5 @@
-#!/bin/bash
-
 cd ~/CheckWeb/pages
 
-echo "Porta que quer usar"
-
+echo "Digite a porta que deseja usar:"
 read porta
-screen -S CheckWeb
-
-php -S localHost:$porta
+screen -S CheckWeb php -S localhost:$porta
