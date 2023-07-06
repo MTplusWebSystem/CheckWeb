@@ -18,6 +18,7 @@ echo -e "
 sleep 2
 
 
+
 function show_progress {
     local progress=$1
     local length=50
@@ -25,13 +26,13 @@ function show_progress {
     printf "\r[%-${length}s] %d%%" "$bar" "$progress"
 }
 
-apt install golang -y > /dev/null
+apt-get install -y golang > /dev/null
 show_progress 33
 
-apt install php -y > /dev/null
+apt-get install -y php > /dev/null
 show_progress 66
 
-apt install screen -y > /dev/null
+apt-get install -y screen > /dev/null
 show_progress 100
 
 git clone https://github.com/MTplusWebSystem/CheckWeb > /dev/null
