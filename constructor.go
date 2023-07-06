@@ -8,9 +8,19 @@ import (
 )
 
 func main() {
-	porta := input("Porta que está CheckUser GLMOD: ")
-	criarArquivo("db.php", CreateDB(porta))
+  local := input("Instalação na VPS com SCRIPT SSH (S) ou (N): ")
+  var porta string
+
+  if local == "S" {
+    porta = input("Porta que está CheckUser GLMOD: ")
+    criarArquivo("pages/index.php", CreateDB(porta))
+  } else {
+    porta = input("IP DA VPS:PORTA com script SSH\nExemplo: 121.0.0.0:5000\n: ")
+  }
+
+  criarArquivo("pages/index.php", CreateDB2(porta))
 }
+
 
 func criarArquivo(arquivo, conteudo string) {
 	file, err := os.Create(arquivo)
@@ -36,11 +46,19 @@ func input(texto string) string {
 func CreateDB(porta string) string {
   return p1+porta+p2
 }
-
+func CreateDB2(porta string) string {
+  return p3+porta+p2
+}
 const p1 = `<?php
 if (isset($_POST['submit'])) {
   $user = $_POST['User'];
   $url = 'http://localhost:
+`
+
+const p3 = `<?php
+if (isset($_POST['submit'])) {
+  $user = $_POST['User'];
+  $url = 'http://
 `
 const p2 = `/check/' . urlencode($user);
   $response = file_get_contents($url);
