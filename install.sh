@@ -22,4 +22,5 @@ apt install php
 apt install screen
 git clone https://github.com/MTplusWebSystem/CheckWeb
 cd CheckWeb
+mv Web /bin
 go run constructor.go
