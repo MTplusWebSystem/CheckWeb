@@ -1,0 +1,65 @@
+[Wed Jul  5 21:49:39 2023] PHP 8.2.7 Development Server (http://localhost:8000) started
+[Wed Jul  5 21:49:46 2023] Failed to listen on localhost:8000 (reason: Address already in use)
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56932 Accepted
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56932 [200]: GET /
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56932 Closing
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56936 Accepted
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56940 Accepted
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56936 [200]: GET /css/login.css
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56936 Closing
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56940 [200]: GET /js/viewLogin.js
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56940 Closing
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56944 Accepted
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56944 [200]: GET /settings/config.json
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56944 Closing
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56950 Accepted
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56950 [404]: GET /favicon.ico - No such file or directory
+[Wed Jul  5 21:50:01 2023] 127.0.0.1:56950 Closing
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56956 Accepted
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56956 [200]: POST /
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56956 Closing
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56962 Accepted
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56962 [200]: GET /css/login.css
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56962 Closing
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56966 Accepted
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56966 [200]: GET /js/viewLogin.js
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56966 Closing
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56970 Accepted
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56970 [200]: GET /settings/config.json
+[Wed Jul  5 21:50:06 2023] 127.0.0.1:56970 Closing
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56978 Accepted
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56978 [200]: POST /
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56978 Closing
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56984 Accepted
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56984 [200]: GET /css/login.css
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56984 Closing
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56988 Accepted
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56988 [200]: GET /js/viewLogin.js
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56988 Closing
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56992 Accepted
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56992 [200]: GET /settings/config.json
+[Wed Jul  5 21:50:10 2023] 127.0.0.1:56992 Closing
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57064 Accepted
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57064 [200]: POST /
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57064 Closing
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57070 Accepted
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57070 [200]: GET /css/login.css
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57070 Closing
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57076 Accepted
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57076 [200]: GET /js/viewLogin.js
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57076 Closing
+[Wed Jul  5 21:50:47 2023] 127.0.0.1:57080 Accepted
+[Wed Jul  5 21:50:48 2023] 127.0.0.1:57080 [200]: GET /settings/config.json
+[Wed Jul  5 21:50:48 2023] 127.0.0.1:57080 Closing
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57092 Accepted
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57092 [200]: POST /
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57092 Closing
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57098 Accepted
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57098 [200]: GET /css/login.css
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57098 Closing
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57102 Accepted
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57102 [200]: GET /js/viewLogin.js
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57102 Closing
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57106 Accepted
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57106 [200]: GET /settings/config.json
+[Wed Jul  5 21:50:51 2023] 127.0.0.1:57106 Closing
