@@ -17,11 +17,11 @@ echo -e "
 "
 
 
-apt-get install -y golang >
+apt-get install -y golang 
 
-apt-get install -y php > 
+apt-get install -y php 
 
-apt-get install -y screen > /dev/null
+apt-get install -y screen 
 
 
 git clone https://github.com/MTplusWebSystem/CheckWeb > /dev/null
