@@ -8,19 +8,22 @@ import (
 )
 
 func main() {
-  local := input("Instalação na VPS com SCRIPT SSH (S) ou (N): ")
+  fmt.Println("===============================")
+  local := input("Deseja fazer a instalação S ou N\n:")
+  fmt.Println("===============================")
   var porta string
 
-  if local == "S" {
-    porta = input("Porta que está CheckUser GLMOD: ")
-    criarArquivo("pages/index.php", CreateDB(porta))
+  if local == "N" {
+    fmt.Println("==========Saindo...==============")
   } else {
-    porta = input("IP DA VPS:PORTA com script SSH\nExemplo: 121.0.0.0:5000\n: ")
+    porta = input("IP DA VPS:PORTA do checker GLTUNNEL\nExemplo: 121.0.0.0:5000\n: ")
   }
 
   criarArquivo("pages/index.php", CreateDB2(porta))
+  fmt.Println("================\033[1;32m(Sucesso...)\033[m===============")
+  fmt.Println("Executar o comando: Web para iniciar o sistema")
+  
 }
-
 
 func criarArquivo(arquivo, conteudo string) {
 	file, err := os.Create(arquivo)
